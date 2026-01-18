@@ -21,7 +21,7 @@ const Loading = ({onComplete}) => {
     <div className='fixed inset-0 flex flex-col items-center justify-center bg-black z-50'>
         <p className="text-white text-sm mb-2 tracking-wider">Loading Portfolio...</p> 
 
-      <div className='w-72 h-2 bg-gray-900 rounded-full overflow-hidden shadow-inner'>
+      <div className='w-52 h-2 bg-gray-900 rounded-full overflow-hidden shadow-inner'>
         <div className='h-full rounded-full transition-all duration-200' 
         style={{
             width:`${progress}%`, 

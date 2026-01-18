@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard' 
 
 const Projects = () => {
-  return ( 
+  return (  
     <div id='projects' className='pt-16 pb-8 px-10 md:pt-20 md:pb-12 md:px-16 text-white bg-[#020B1C] backdrop-blur-md rounded-lg'>
       
       <h1 className='text-2xl md:text-4xl font-bold bg-linear-to-r from-cyan-400 to-blue-500 inline-block text-transparent bg-clip-text uppercase'> 
