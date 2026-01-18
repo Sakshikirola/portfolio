@@ -7,8 +7,7 @@ This portfolio showcases my projects, skills, and contact information with a cle
 
 ## 🚀 Live Demo
 
-🔗 https://your-portfolio-link.vercel.app  
-*(Replace this with your deployed URL after deployment)*
+🔗 https://portfolio-ivory-iota-x1et2dv244.vercel.app/ 
 
 ---
 
