@@ -11,20 +11,20 @@ const Projects = () => {
       
       <div className='py-12 px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 justify-items-center'> 
         <ProjectCard 
+          demoLink="https://india-xplore.vercel.app/"  
+          sourceLink="https://github.com/Sakshikirola/IndiaXplore" 
+          image="/images/indiaXplore.png"   
+          title="IndiaXplore Travel Website" 
+          main="IndiaXplore is a responsive travel website built with React.js and Tailwind CSS, focused on clean UI/UX and smooth navigation." 
+        /> 
+
+        <ProjectCard 
           demoLink="https://ems-project-swart.vercel.app/"  
           sourceLink="https://github.com/Sakshikirola/EMS-Project" 
           image="/images/Employee.png"   
           title="Employee Management Dashboard" 
           main="A responsive React dashboard for managing employees and tasks with dynamic status cards and a clean, interactive UI." 
-        />
-         
-        <ProjectCard 
-          demoLink="https://sakshikirola.github.io/utkart-ecommerce/"
-          sourceLink="https://github.com/Sakshikirola/utkart-ecommerce" 
-          image="/images/utkart.png" 
-          title="Utkart - Ecommerce Website"   
-          main="A frontend ecommerce website built with HTML, CSS, and JavaScript featuring product listings and a responsive shopping UI."
-        />
+        /> 
 
         <ProjectCard 
           demoLink="https://portfolio-ivory-iota-x1et2dv244.vercel.app/"  
@@ -32,6 +32,14 @@ const Projects = () => {
           image="/images/portfolio.png" 
           title="Personal Portfolio Website"  
           main="A modern personal portfolio built with React and Tailwind CSS to showcase projects and skills."
+        />
+
+        <ProjectCard 
+          demoLink="https://sakshikirola.github.io/utkart-ecommerce/"
+          sourceLink="https://github.com/Sakshikirola/utkart-ecommerce" 
+          image="/images/utkart.png" 
+          title="Utkart - Ecommerce Website"   
+          main="A frontend ecommerce website built with HTML, CSS, and JavaScript featuring product listings and a responsive shopping UI."
         />
       </div>
     </div>
